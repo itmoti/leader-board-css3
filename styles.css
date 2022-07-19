@@ -1,0 +1,133 @@
+/* fonts */
+/* common style  */
+body {
+    font-family: 'Finlandica', sans-serif;
+font-family: 'Gulzar', serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+background-color:#F3F1FF;
+}
+main {
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.container {
+    background-color: #FFFFFF;
+    width : 670px;
+    height : 679px;
+    padding : 30px;
+    margin-top: 21px;
+    border-radius : 16px;
+}
+hr {
+    border: 1px solid #D1D1D1;
+    margin-bottom: 27px;
+}
+
+/* top players style */
+.top-players {
+    margin-bottom : 30px;
+}
+.section-title {
+    height:36px;
+    width : 125px;
+    color: #562EFF;
+    font-size : 24px;
+    font-weight : 500;
+    margin-top: 0px;
+}
+.players {
+    display: grid;
+    grid-template-columns : repeat(3,1fr);
+    grid-row-gap: 30px;
+}
+.player {
+    display: flex;
+    align-items: center;
+
+}
+.players img {
+    width: 56px;
+    height: 56px;
+}
+.player-name {
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+/*------------ 
+     Top Blogs
+----------------------- */
+
+
+.blogs {
+    display : grid;
+    grid-template-columns : repeat(2,1fr);
+    column-gap: 20px;
+}
+
+.blog .thumbnail img {
+    width : 177px;
+    height : 117px;
+}
+ .blog {
+    display:flex;
+ }
+ .blog-info {
+    margin-left : 16px;
+    width : 153px;
+    height: 68px;
+ }
+ .blog-info .blog-title {
+    font-size : 16px;
+    color : black; 
+ }
+ .blog-author {
+    color: #9F9F9F;
+    font-size : 16px;
+    width : 160px;
+    height:24px;
+ }
+ .blog-author a {
+    text-decoration: none;
+    color: #562EFF;
+    
+ }
+
+/* Latest Course  */
+
+.courses{
+display : grid;
+grid-template-columns: repeat(3,1fr);
+grid-column-gap : 24px;
+justify-content: center;
+
+}
+.course {
+    border-radius : 5px;
+    border: 1px solid grey;
+    
+}
+.course-banner {
+
+}
+.course-banner img {
+    width :224px;
+    height : 104px;
+}
+.course-info {
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-star.filled {
+    color : #FFC014;
+}
+.fa-star.empty {
+    color :  #AEAEAE;
+}
+
